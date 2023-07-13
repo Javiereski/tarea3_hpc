@@ -1,13 +1,13 @@
 /home/jmansilla/tarea3/tarea3_hpc
-Wed 12 Jul 2023 08:25:43 AM -04
+Thu 13 Jul 2023 08:30:08 AM -04
 Launching from 4 
 Detecting initial condition...Initial condition taken from spqr_inits/init.pdb.
 Reading MC parameters from file params.spqr ...
 SPQR SIMULATION PARAMETERS
 Temperature                 : 6.000000
-MC integration steps        : 15000000
-Saving trajectory every     : 1500000
-Saving checkpoints every    : 150000000
+MC integration steps        : 20000000
+Saving trajectory every     : 2000000
+Saving checkpoints every    : 200000000
 Random seed                 : 10
 MC nt position displacement : 0.100000
 MC ph position displacement : 0.200000
@@ -26,7 +26,7 @@ Temperature factor:                 0.750000
 Step factor:                        0.750000 
 Number of iterations:                25 
 Previous energy:                     0.000000 
-Each run is 15000000 MC steps. Saving every 1500000 trials.
+Each run is 20000000 MC steps. Saving every 2000000 trials.
 Processor (job) 4 starting from time 0
 JOB 4 , INITIAL ENERGY IS -2952.027728
 Step 0 on processor 4, temperature set to 15.000000
@@ -34,49 +34,49 @@ Step 0 on 4, energy is -3045.565971 . It was -2952.027728
 Step 1 on processor 4, temperature set to 15.000000
 Step 1 on 4, energy is -2712.211411 . It was -3045.565971
 Step 2 on processor 4, temperature set to 11.250000
-Step 2 on 4, energy is -2986.951420 . It was -2712.211411
+Step 2 on 4, energy is -2971.565307 . It was -2712.211411
 Step 3 on processor 4, temperature set to 11.250000
-Step 3 on 4, energy is -2988.065278 . It was -2986.951420
+Step 3 on 4, energy is -3016.464855 . It was -2971.565307
 Step 4 on processor 4, temperature set to 11.250000
-Step 4 on 4, energy is -2933.881949 . It was -2988.065278
+Step 4 on 4, energy is -2973.066827 . It was -3016.464855
 Step 5 on processor 4, temperature set to 8.437500
-Step 5 on 4, energy is -3086.189807 . It was -2933.881949
+Step 5 on 4, energy is -3137.997394 . It was -2973.066827
 Step 6 on processor 4, temperature set to 8.437500
-Step 6 on 4, energy is -3170.269636 . It was -3086.189807
-Step 7 on processor 4, temperature set to 8.437500
-Step 7 on 4, energy is -3122.912165 . It was -3170.269636
+Step 6 on 4, energy is -3128.163663 . It was -3137.997394
+Step 7 on processor 4, temperature set to 6.328125
+Step 7 on 4, energy is -3607.159342 . It was -3128.163663
 Step 8 on processor 4, temperature set to 6.328125
-Step 8 on 4, energy is -3254.608375 . It was -3122.912165
-Step 9 on processor 4, temperature set to 6.328125
-Step 9 on 4, energy is -3252.632877 . It was -3254.608375
+Step 8 on 4, energy is -3604.588732 . It was -3607.159342
+Step 9 on processor 4, temperature set to 4.746094
+Step 9 on 4, energy is -3618.725143 . It was -3604.588732
 Step 10 on processor 4, temperature set to 4.746094
-Step 10 on 4, energy is -3267.601235 . It was -3252.632877
+Step 10 on 4, energy is -3638.301273 . It was -3618.725143
 Step 11 on processor 4, temperature set to 4.746094
-Step 11 on 4, energy is -3236.434087 . It was -3267.601235
+Step 11 on 4, energy is -3625.390842 . It was -3638.301273
 Step 12 on processor 4, temperature set to 3.559570
-Step 12 on 4, energy is -3301.855063 . It was -3236.434087
+Step 12 on 4, energy is -3649.932542 . It was -3625.390842
 Step 13 on processor 4, temperature set to 3.559570
-Step 13 on 4, energy is -3347.907286 . It was -3301.855063
+Step 13 on 4, energy is -3655.017461 . It was -3649.932542
 Step 14 on processor 4, temperature set to 3.559570
-Step 14 on 4, energy is -3350.970491 . It was -3347.907286
+Step 14 on 4, energy is -3657.086099 . It was -3655.017461
 Step 15 on processor 4, temperature set to 3.559570
-Step 15 on 4, energy is -3344.564321 . It was -3350.970491
-Step 16 on processor 4, temperature set to 2.669678
-Step 16 on 4, energy is -3373.412242 . It was -3344.564321
+Step 15 on 4, energy is -3658.708757 . It was -3657.086099
+Step 16 on processor 4, temperature set to 3.559570
+Step 16 on 4, energy is -3653.152811 . It was -3658.708757
 Step 17 on processor 4, temperature set to 2.669678
-Step 17 on 4, energy is -3366.967694 . It was -3373.412242
-Step 18 on processor 4, temperature set to 2.002258
-Step 18 on 4, energy is -3395.388757 . It was -3366.967694
+Step 17 on 4, energy is -3677.180872 . It was -3653.152811
+Step 18 on processor 4, temperature set to 2.669678
+Step 18 on 4, energy is -3675.086144 . It was -3677.180872
 Step 19 on processor 4, temperature set to 2.002258
-Step 19 on 4, energy is -3397.621182 . It was -3395.388757
+Step 19 on 4, energy is -3683.984667 . It was -3675.086144
 Step 20 on processor 4, temperature set to 2.002258
-Step 20 on 4, energy is -3391.856199 . It was -3397.621182
-Step 21 on processor 4, temperature set to 1.501694
-Step 21 on 4, energy is -3404.260111 . It was -3391.856199
+Step 20 on 4, energy is -3690.436640 . It was -3683.984667
+Step 21 on processor 4, temperature set to 2.002258
+Step 21 on 4, energy is -3686.604762 . It was -3690.436640
 Step 22 on processor 4, temperature set to 1.501694
-Step 22 on 4, energy is -3401.699063 . It was -3404.260111
-Step 23 on processor 4, temperature set to 1.126270
-Step 23 on 4, energy is -3401.159993 . It was -3401.699063
-Step 24 on processor 4, temperature set to 0.844703
-Step 24 on 4, energy is -3406.851855 . It was -3401.159993
-Simulation 4 ended properly. Checkpoint saved with temperature 0.000000 and minimum energy -3406.851855 .
+Step 22 on 4, energy is -3696.177937 . It was -3686.604762
+Step 23 on processor 4, temperature set to 1.501694
+Step 23 on 4, energy is -3697.349532 . It was -3696.177937
+Step 24 on processor 4, temperature set to 1.501694
+Step 24 on 4, energy is -3696.609136 . It was -3697.349532
+Simulation 4 ended properly. Checkpoint saved with temperature 1.126270 and minimum energy -3696.609136 .
