@@ -1,0 +1,82 @@
+/home/jmansilla/tarea3/tarea3_hpc
+Tue 11 Jul 2023 07:10:28 PM -04
+Launching from 2 
+Detecting initial condition...Initial condition taken from spqr_inits/init.pdb.
+Reading MC parameters from file params.spqr ...
+SPQR SIMULATION PARAMETERS
+Temperature                 : 6.000000
+MC integration steps        : 10000000
+Saving trajectory every     : 1000000
+Saving checkpoints every    : 100000000
+Random seed                 : 10
+MC nt position displacement : 0.100000
+MC ph position displacement : 0.200000
+MC nt-rotation angle        : 0.030000
+Cutoff radii                : 21.000000 11.000000 (wc) 8.000000 (bph) 21.000000 (nb)
+Verlet skin                 : 2.000000
+Energy file                 : /home/jmansilla/tarea3/spqr/interactions/intrac.btb
+
+Saving configurations to file configs/confs.p02.mc.
+WARNING: WRITING TRAJECTORY IN PDB FORMAT.
+/******* SIMULATED ANNEALING **********/
+Starting from anneal step 0
+Maximum temperature:                15.000000 
+Minimum temperature:                1.000000 
+Temperature factor:                 0.750000 
+Step factor:                        0.750000 
+Number of iterations:                25 
+Previous energy:                     0.000000 
+Each run is 10000000 MC steps. Saving every 1000000 trials.
+Processor (job) 2 starting from time 0
+JOB 2 , INITIAL ENERGY IS -2952.027728
+Step 0 on processor 2, temperature set to 15.000000
+Step 0 on 2, energy is -3023.243413 . It was -2952.027728
+Step 1 on processor 2, temperature set to 15.000000
+Step 1 on 2, energy is -2671.140679 . It was -3023.243413
+Step 2 on processor 2, temperature set to 11.250000
+Step 2 on 2, energy is -2912.059614 . It was -2671.140679
+Step 3 on processor 2, temperature set to 11.250000
+Step 3 on 2, energy is -2870.974092 . It was -2912.059614
+Step 4 on processor 2, temperature set to 8.437500
+Step 4 on 2, energy is -3305.050874 . It was -2870.974092
+Step 5 on processor 2, temperature set to 8.437500
+Step 5 on 2, energy is -3316.487798 . It was -3305.050874
+Step 6 on processor 2, temperature set to 8.437500
+Step 6 on 2, energy is -3293.400551 . It was -3316.487798
+Step 7 on processor 2, temperature set to 6.328125
+Step 7 on 2, energy is -3406.771609 . It was -3293.400551
+Step 8 on processor 2, temperature set to 6.328125
+Step 8 on 2, energy is -3400.465639 . It was -3406.771609
+Step 9 on processor 2, temperature set to 4.746094
+Step 9 on 2, energy is -3454.866928 . It was -3400.465639
+Step 10 on processor 2, temperature set to 4.746094
+Step 10 on 2, energy is -3467.945089 . It was -3454.866928
+Step 11 on processor 2, temperature set to 4.746094
+Step 11 on 2, energy is -3452.792647 . It was -3467.945089
+Step 12 on processor 2, temperature set to 3.559570
+Step 12 on 2, energy is -3489.550056 . It was -3452.792647
+Step 13 on processor 2, temperature set to 3.559570
+Step 13 on 2, energy is -3494.418537 . It was -3489.550056
+Step 14 on processor 2, temperature set to 3.559570
+Step 14 on 2, energy is -3488.819413 . It was -3494.418537
+Step 15 on processor 2, temperature set to 2.669678
+Step 15 on 2, energy is -3506.318479 . It was -3488.819413
+Step 16 on processor 2, temperature set to 2.669678
+Step 16 on 2, energy is -3511.101245 . It was -3506.318479
+Step 17 on processor 2, temperature set to 2.669678
+Step 17 on 2, energy is -3512.495374 . It was -3511.101245
+Step 18 on processor 2, temperature set to 2.669678
+Step 18 on 2, energy is -3507.584760 . It was -3512.495374
+Step 19 on processor 2, temperature set to 2.002258
+Step 19 on 2, energy is -3526.918760 . It was -3507.584760
+Step 20 on processor 2, temperature set to 2.002258
+Step 20 on 2, energy is -3527.250683 . It was -3526.918760
+Step 21 on processor 2, temperature set to 2.002258
+Step 21 on 2, energy is -3520.115303 . It was -3527.250683
+Step 22 on processor 2, temperature set to 1.501694
+Step 22 on 2, energy is -3530.639437 . It was -3520.115303
+Step 23 on processor 2, temperature set to 1.501694
+Step 23 on 2, energy is -3530.273855 . It was -3530.639437
+Step 24 on processor 2, temperature set to 1.126270
+Step 24 on 2, energy is -3540.178322 . It was -3530.273855
+Simulation 2 ended properly. Checkpoint saved with temperature 1.126270 and minimum energy -3540.178322 .
